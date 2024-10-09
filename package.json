@@ -1,0 +1,25 @@
+{
+  "name": "Vertex AI",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "@google-cloud/aiplatform": "^3.29.0",
+    "@google-cloud/bigquery": "^7.9.0",
+    "@google-cloud/discoveryengine": "^1.14.0",
+    "@google-cloud/vertexai": "^1.2.0",
+    "@google/generative-ai": "^0.11.3",
+    "axios": "^1.7.1"
+  },
+  "type": "module"
+}
